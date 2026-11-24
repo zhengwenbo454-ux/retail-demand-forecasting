@@ -1,0 +1,27 @@
+{
+  "test_start": "2016-04-25",
+  "test_end": "2016-05-22",
+  "best_rounds": 176,
+  "best_baseline": "Last-28-day mean (baseline)",
+  "wape_improvement_vs_best_baseline": 0.022164391410121942,
+  "results": {
+    "Last-28-day mean (baseline)": {
+      "WAPE": 0.7478075598151401,
+      "RMSE": 2.347204079078364,
+      "MAE": 1.1740399997322641,
+      "Bias": -0.04533991882535514
+    },
+    "Seasonal naive: same weekday last week (baseline)": {
+      "WAPE": 0.8680165930524054,
+      "RMSE": 2.7374791096109554,
+      "MAE": 1.3627653094691468,
+      "Bias": -0.05556881938641518
+    },
+    "LightGBM (Tweedie)": {
+      "WAPE": 0.7312328603599492,
+      "RMSE": 2.2413328290889587,
+      "MAE": 1.148018117647059,
+      "Bias": -0.05823085912771746
+    }
+  }
+}
