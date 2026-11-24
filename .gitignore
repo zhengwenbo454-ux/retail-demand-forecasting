@@ -1,0 +1,19 @@
+# Data: Kaggle's rules do not allow re-sharing the M5 files, and they are too big for GitHub
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+
+# Trained model (can be rebuilt with python src/train.py)
+models/
+
+# Python and editor files
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# Never upload credentials
+kaggle.json
+.env
