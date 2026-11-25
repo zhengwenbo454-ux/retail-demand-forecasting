@@ -15,7 +15,7 @@ CATEGORICAL = ["item_id", "dept_id", "cat_id", "event_type_1"]
 FEATURES = (
     [f"lag_{lag}" for lag in LAGS]
     + [f"roll_mean_{w}" for w in WINDOWS]
-    + ["roll_std_28",
+    + ["roll_std_28", "sell_price", "price_vs_8wk", "price_change_1wk",
        "dow", "dom", "month", "is_event", "snap"]
     + CATEGORICAL
 )
